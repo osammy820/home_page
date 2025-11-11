@@ -2,6 +2,8 @@
 import Link from 'next/link'
 import { FaShieldAlt, FaClock, FaMobileAlt, FaCheckCircle, FaLock, FaGlobe, FaUsers, FaFileAlt } from 'react-icons/fa'
 
+
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
@@ -11,7 +13,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
           style={{ backgroundImage: "url('/assets/hero.jpg')" }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/90 to-slate-900/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/30 to-slate-900/80"></div>
 
         {/* Animated background elements */}
         <div className="absolute inset-0">
@@ -27,16 +29,16 @@ export default function Home() {
                 <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg">
                   <img src="/assets/logo.png" alt="Ministry of Interior" className="w-10 h-10 object-contain" />
                 </div>
-                <span className="text-white font-semibold">Ministry of Interior</span>
+                <span className="text-white font-semibold">Ministry of The Interior</span>
               </div>
             </div>
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+            <h3 className="text-5xl md:text-7xl lg:text-6xl font-bold mb-8 leading-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
               <span className="block text-white mb-2">Recruitment into the</span>
               <span className="block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 bg-clip-text text-transparent animate-float">
                 Internal Security Agencies
               </span>
-            </h1>
+            </h3>
 
             {/* Services in Hero Section */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
@@ -73,6 +75,14 @@ export default function Home() {
               </Link>
             </div>
 
+
+
+            <div id="countdown">
+              <span id="days"></span> days
+              <span id="hours"></span> hours
+              <span id="minutes"></span> minutes
+              <span id="seconds"></span> seconds
+            </div>
 
 
 
@@ -193,6 +203,25 @@ export default function Home() {
       </section>
 
 
+      {/* Final CTA */}
+      <section className="bg-gradient-to-br from-blue-900 to-slate-900 text-white py-16">
+        <div className="container mx-auto px-4 text-center" >
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 animate-fade-in-up">
+            Have you purchased your voucher already?
+          </h2>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href={'javascript:void(0)'} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 animate-slide-up flex items-center justify-center gap-2" style={{ animationDelay: '0.4s' }}>
+              <span>Apply Now !!!</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+
 
 
 
@@ -301,4 +330,5 @@ export default function Home() {
       </section>
     </main>
   )
+
 }
