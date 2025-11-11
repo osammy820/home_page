@@ -1,8 +1,7 @@
 "use client"
 import Link from 'next/link'
 import { FaShieldAlt, FaClock, FaMobileAlt, FaCheckCircle, FaLock, FaGlobe, FaUsers, FaFileAlt } from 'react-icons/fa'
-
-
+import CountdownTimer from './components/CountdownTimer'
 
 export default function Home() {
   return (
@@ -21,72 +20,74 @@ export default function Home() {
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
         </div>
 
-        <div className="relative container mx-auto px-4 text-center z-10">
-          <div className="max-w-6xl mx-auto">
-            {/* Logo/Branding */}
-            <div className="my-8 animate-fade-in-up">
-              <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
-                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <img src="/assets/logo.png" alt="Ministry of Interior" className="w-10 h-10 object-contain" />
+        <div className='flex flex-col'>
+
+          <div className="relative container mx-auto px-4 text-center z-10">
+            <div className="max-w-6xl mx-auto">
+              {/* Logo/Branding */}
+              <div className="my-8 animate-fade-in-up">
+                <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
+                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg">
+                    <img src="/assets/logo.png" alt="Ministry of Interior" className="w-10 h-10 object-contain" />
+                  </div>
+                  <span className="text-white font-semibold">Ministry of The Interior</span>
                 </div>
-                <span className="text-white font-semibold">Ministry of The Interior</span>
               </div>
-            </div>
 
-            <h3 className="text-5xl md:text-7xl lg:text-6xl font-bold mb-8 leading-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              <span className="block text-white mb-2">Recruitment into the</span>
-              <span className="block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 bg-clip-text text-transparent animate-float">
-                Internal Security Agencies
-              </span>
-            </h3>
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+                <span className="block text-white mb-2">Recruitment into the</span>
+                <span className="block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 bg-clip-text text-transparent animate-float">
+                  Internal Security Agencies
+                </span>
+              </h1>
 
-            {/* Services in Hero Section */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-              <Link href="/ghana-police-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
-                <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
-                  <img src="/assets/services/ghana_police_service_logo.png" alt="Ghana Police Service" className="w-full h-full object-contain" />
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana Police Service</h3>
-                <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
-              </Link>
+              {/* Services in Hero Section */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+                <Link href="/ghana-police-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                  <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
+                    <img src="/assets/services/ghana_police_service_logo.png" alt="Ghana Police Service" className="w-full h-full object-contain" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana Police Service</h3>
+                  <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
+                </Link>
 
-              <Link href="/ghana-national-fire-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
-                <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
-                  <img src="/assets/services/ghana_national_fire_service_logo.png" alt="Ghana National Fire Service" className="w-full h-full object-contain" />
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana National Fire Service</h3>
-                <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
-              </Link>
+                <Link href="/ghana-national-fire-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                  <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
+                    <img src="/assets/services/ghana_national_fire_service_logo.png" alt="Ghana National Fire Service" className="w-full h-full object-contain" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana National Fire Service</h3>
+                  <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
+                </Link>
 
-              <Link href="/ghana-immigration-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
-                <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
-                  <img src="/assets/services/ghana_immigration_service_logo.png" alt="Ghana Immigration Service" className="w-full h-full object-contain" />
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana Immigration Service</h3>
-                <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
-              </Link>
+                <Link href="/ghana-immigration-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                  <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
+                    <img src="/assets/services/ghana_immigration_service_logo.png" alt="Ghana Immigration Service" className="w-full h-full object-contain" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana Immigration Service</h3>
+                  <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
+                </Link>
 
-              <Link href="/ghana-prisons-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
-                <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
-                  <img src="/assets/services/ghana_prisons_service_logo.png" alt="Ghana Prisons Service" className="w-full h-full object-contain" />
-                </div>
-                <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana Prisons Service</h3>
-                <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
-              </Link>
-            </div>
-
-
-
-            <div id="countdown">
-              <span id="days"></span> days
-              <span id="hours"></span> hours
-              <span id="minutes"></span> minutes
-              <span id="seconds"></span> seconds
-            </div>
+                <Link href="/ghana-prisons-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                  <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
+                    <img src="/assets/services/ghana_prisons_service_logo.png" alt="Ghana Prisons Service" className="w-full h-full object-contain" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-yellow-300 transition-colors">Ghana Prisons Service</h3>
+                  <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
+                </Link>
+              </div>
 
 
 
-            {/*
+              <div id="countdown">
+                <span id="days"></span> days
+                <span id="hours"></span> hours
+                <span id="minutes"></span> minutes
+                <span id="seconds"></span> seconds
+              </div>
+
+
+
+              {/*
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in-up" style={{ animationDelay: '1s' }}>
               <button className="group bg-gradient-to-r from-yellow-400 to-yellow-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-yellow-400/25 transform hover:scale-105 transition-all duration-300 flex items-center gap-3 animate-bounce-slow">
                 <Link href="javascript:void(0)">
@@ -99,7 +100,19 @@ export default function Home() {
             </div> */}
 
 
+            </div>
           </div>
+
+          {/* Countdown Timer */}
+          <CountdownTimer
+            title="Recruitment Starts In"
+            subtitle=""
+            deadlineLabel="Application Deadline"
+            showIcons={true}
+            showDeadline={true}
+            variant="default"
+            targetDate={new Date(Date.now() + 6 * 24 * 60 * 60 * 1000)} // 30 days from now
+          />
         </div>
 
         {/* Scroll indicator */}
