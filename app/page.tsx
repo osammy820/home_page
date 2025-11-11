@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight animate-fade-in-up mt-5" style={{ animationDelay: '0.2s' }}>
                 <span className="block text-white mb-2">Recruitment into the</span>
                 <span className="block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 bg-clip-text text-transparent animate-float">
                   Internal Security Agencies
@@ -42,8 +42,8 @@ export default function Home() {
               </h1>
 
               {/* Services in Hero Section */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-                <Link href="/ghana-police-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12 animate-fade-in-up mt-8 pt-16" style={{ animationDelay: '0.6s' }}>
+                <Link href="/ghana-police-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_police_service_logo.png" alt="Ghana Police Service" className="w-full h-full object-contain" />
                   </div>
@@ -51,7 +51,7 @@ export default function Home() {
                   <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
                 </Link>
 
-                <Link href="/ghana-national-fire-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                <Link href="/ghana-national-fire-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_national_fire_service_logo.png" alt="Ghana National Fire Service" className="w-full h-full object-contain" />
                   </div>
@@ -59,7 +59,7 @@ export default function Home() {
                   <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
                 </Link>
 
-                <Link href="/ghana-immigration-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                <Link href="/ghana-immigration-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_immigration_service_logo.png" alt="Ghana Immigration Service" className="w-full h-full object-contain" />
                   </div>
@@ -67,7 +67,7 @@ export default function Home() {
                   <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
                 </Link>
 
-                <Link href="/ghana-prisons-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                <Link href="/ghana-prisons-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_prisons_service_logo.png" alt="Ghana Prisons Service" className="w-full h-full object-contain" />
                   </div>
@@ -78,12 +78,12 @@ export default function Home() {
 
 
 
-              <div id="countdown">
+              {/* <div id="countdown">
                 <span id="days"></span> days
                 <span id="hours"></span> hours
                 <span id="minutes"></span> minutes
                 <span id="seconds"></span> seconds
-              </div>
+              </div> */}
 
 
 
@@ -105,7 +105,7 @@ export default function Home() {
 
           {/* Countdown Timer */}
           <CountdownTimer
-            title="Recruitment Starts In"
+            title="Application Starts In"
             subtitle=""
             deadlineLabel="Application Deadline"
             showIcons={true}

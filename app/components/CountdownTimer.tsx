@@ -116,7 +116,7 @@ export default function CountdownTimer({
         className={`
           ${colorClass}
           rounded-xl ${showIcons ? "p-4 md:p-6" : "p-3 md:p-4"} shadow-lg
-          group-hover:shadow-xl transition-all duration-300
+          group-hover:shadow-xl transition-all duration-300 pt-4
           group-hover:scale-105 animate-float
           ${isExpired ? "opacity-50" : ""}
         `}
@@ -134,19 +134,19 @@ export default function CountdownTimer({
   const renderCompactTimer = () => (
     <div className="flex items-center gap-4">
       <div className="text-center">
-        <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-lg px-3 py-2">
+        <div className="bg-gradient-to-br from-gray-400 to-gray-500 rounded-lg px-3 py-2">
           <span className="text-xl font-bold text-slate-900">
             {String(timeLeft.days).padStart(2, "0")}d {String(timeLeft.hours).padStart(2, "0")}h
           </span>
         </div>
       </div>
-      <span className="text-white/80 text-sm">{title.toLowerCase()}</span>
+      <span className="text-white/80 text-sm bg-gradient-to-br from-yellow-300 to-gray-300">{title.toLowerCase()}</span>
     </div>
   )
 
   const renderMinimalTimer = () => (
     <div className="text-center">
-      <div className="text-2xl font-bold text-yellow-300">
+      <div className="text-2xl font-bold text-gray-300">
         {String(timeLeft.days).padStart(2, "0")}d : {String(timeLeft.hours).padStart(2, "0")}h :{" "}
         {String(timeLeft.minutes).padStart(2, "0")}m : {String(timeLeft.seconds).padStart(2, "0")}s
       </div>
@@ -158,24 +158,27 @@ export default function CountdownTimer({
     <>
       {/* {showDeadline && (
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 bg-yellow-400/20 backdrop-blur-sm text-yellow-300 px-6 py-3 rounded-full text-sm font-semibold border border-yellow-400/30">
+          <div className="inline-flex items-center gap-2 bg-gray-400/20 backdrop-blur-sm text-gray-300 px-6 py-3 rounded-full text-sm font-semibold border border-gray-400/30">
             <FaExclamationTriangle className="w-5 h-5 animate-pulse" />
             <span>{deadlineLabel}</span>
           </div>
         </div>
       )} */}
 
-      <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
+      <div className="bg-white/10 backdrop-blur-[1px] rounded-2xl p-8 border border-white/20 shadow-2xl mt-8">
         <div className="text-center mb-6">
-          <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">{title}</h3>
+          <h3 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-yellow-300 to-gray-300 mb-2">
+            {title}
+          </h3>
+
           <p className="text-white/80">{subtitle}</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-          <TimeUnit value={timeLeft.days} label="Days" icon={FaCalendarAlt} colorClass="bg-gradient-to-br from-yellow-400 to-yellow-500" />
-          <TimeUnit value={timeLeft.hours} label="Hours" icon={FaClock} colorClass="bg-gradient-to-br from-blue-400 to-blue-500" delay={200} />
-          <TimeUnit value={timeLeft.minutes} label="Minutes" icon={FaHourglassHalf} colorClass="bg-gradient-to-br from-green-400 to-green-500" delay={400} />
-          <TimeUnit value={timeLeft.seconds} label="Seconds" icon={FaExclamationTriangle} colorClass="bg-gradient-to-br from-red-400 to-red-500 animate-pulse" delay={600} />
+          <TimeUnit value={timeLeft.days} label="Days" icon={FaCalendarAlt} colorClass="bg-gradient-to-br from-gray-400 to-gray-500" />
+          <TimeUnit value={timeLeft.hours} label="Hours" icon={FaClock} colorClass="bg-gradient-to-br from-gray-400 to-gray-500" delay={200} />
+          <TimeUnit value={timeLeft.minutes} label="Minutes" icon={FaHourglassHalf} colorClass="bg-gradient-to-br from-gray-400 to-gray-500" delay={400} />
+          <TimeUnit value={timeLeft.seconds} label="Seconds" icon={FaExclamationTriangle} colorClass="bg-gradient-to-br from-gray-400 to-gray-500 animate-pulse" delay={600} />
         </div>
       </div>
     </>
