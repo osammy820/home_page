@@ -40,7 +40,7 @@ export default function Home() {
 
             {/* Services in Hero Section */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-              <Link href="/services/ghana-police-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+              <Link href="/ghana-police-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                 <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                   <img src="/assets/services/ghana_police_service_logo.png" alt="Ghana Police Service" className="w-full h-full object-contain" />
                 </div>
@@ -48,7 +48,7 @@ export default function Home() {
                 <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
               </Link>
 
-              <Link href="/services/ghana-national-fire-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+              <Link href="/ghana-national-fire-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                 <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                   <img src="/assets/services/ghana_national_fire_service_logo.png" alt="Ghana National Fire Service" className="w-full h-full object-contain" />
                 </div>
@@ -56,7 +56,7 @@ export default function Home() {
                 <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
               </Link>
 
-              <Link href="/services/ghana-immigration-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+              <Link href="/ghana-immigration-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                 <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                   <img src="/assets/services/ghana_immigration_service_logo.png" alt="Ghana Immigration Service" className="w-full h-full object-contain" />
                 </div>
@@ -64,7 +64,7 @@ export default function Home() {
                 <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
               </Link>
 
-              <Link href="/services/ghana-prisons-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+              <Link href="/ghana-prisons-service" className="group bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                 <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                   <img src="/assets/services/ghana_prisons_service_logo.png" alt="Ghana Prisons Service" className="w-full h-full object-contain" />
                 </div>
@@ -76,17 +76,17 @@ export default function Home() {
 
 
 
-
+            {/*
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in-up" style={{ animationDelay: '1s' }}>
               <button className="group bg-gradient-to-r from-yellow-400 to-yellow-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-yellow-400/25 transform hover:scale-105 transition-all duration-300 flex items-center gap-3 animate-bounce-slow">
-                <Link href="http://uerp.test/register">
+                <Link href="javascript:void(0)">
                   <span>Start Your Application</span>
                 </Link>
                 <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </button>
-            </div>
+            </div> */}
 
 
           </div>
@@ -113,9 +113,6 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in-up">
               Simple 5-Step Application
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Transform your career journey in just 30-45 minutes with our streamlined digital process
-            </p>
           </div>
 
           <div className="relative">
@@ -123,14 +120,14 @@ export default function Home() {
             <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-blue-200 transform -translate-y-1/2 hidden md:block"></div>
 
             <div className="grid md:grid-cols-5 gap-6 max-w-6xl mx-auto mb-12 relative">
-              <div className="group text-center animate-fade-in-left">
+              <div className="group text-center animate-fade-in-left " >
                 <div className="relative mb-6">
                   <div className="absolute inset-0 bg-blue-500 rounded-full blur-lg opacity-15 group-hover:opacity-25 transition-opacity"></div>
                   <div className="relative bg-blue-500 w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4 text-white font-bold text-3xl shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300 animate-float">
                     1
                   </div>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                <div style={{ height: '200px' }} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   <h3 className="text-xl font-semibold mb-3 text-gray-900">Purchase Voucher</h3>
                   <p className="text-gray-600">Buy application credentials from authorized vendors</p>
                 </div>
@@ -143,7 +140,7 @@ export default function Home() {
                     2
                   </div>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                <div style={{ height: '200px' }} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   <h3 className="text-xl font-semibold mb-3 text-gray-900">Create Account</h3>
                   <p className="text-gray-600">Register with your serial, pin, and personal details</p>
                 </div>
@@ -156,7 +153,7 @@ export default function Home() {
                     3
                   </div>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                <div style={{ height: '200px' }} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   <h3 className="text-xl font-semibold mb-3 text-gray-900">Choose Service</h3>
                   <p className="text-gray-600">Select your preferred security service</p>
                 </div>
@@ -169,7 +166,7 @@ export default function Home() {
                     4
                   </div>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                <div style={{ height: '200px' }} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   <h3 className="text-xl font-semibold mb-3 text-gray-900">Complete Form</h3>
                   <p className="text-gray-600">Fill application and upload documents</p>
                 </div>
@@ -182,7 +179,7 @@ export default function Home() {
                     5
                   </div>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                <div style={{ height: '200px' }} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
                   <h3 className="text-xl font-semibold mb-3 text-gray-900">Submit & Track</h3>
                   <p className="text-gray-600">Submit and monitor your progress</p>
                 </div>
@@ -198,7 +195,7 @@ export default function Home() {
 
 
 
-  
+
       {/* Contact Section */}
       <section className="py-16 bg-gradient-to-br from-slate-50 to-white">
         <div className="container mx-auto px-4">
@@ -282,26 +279,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-yellow-400 to-orange-500 rounded-2xl p-8 max-w-4xl mx-auto text-white animate-scale-in">
-            <div className="text-center">
-              <h3 className="text-2xl font-bold mb-4">Start Your Application Today</h3>
-              <p className="text-white/90 mb-6">Join thousands of Ghanaians serving their nation through our secure recruitment platform</p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-white text-gray-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-colors animate-slide-up flex items-center justify-center gap-2" style={{ animationDelay: '0.2s' }}>
-                  <span>Apply Now</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </button>
-                <button className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-gray-900 transition-colors animate-slide-up flex items-center justify-center gap-2" style={{ animationDelay: '0.4s' }}>
-                  <span>Learn More</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -309,14 +286,12 @@ export default function Home() {
       <section className="bg-gradient-to-br from-blue-900 to-slate-900 text-white py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 animate-fade-in-up">
-            Ready to Start Your Career?
+            Have you purchased your voucher already?
           </h2>
-          <p className="text-xl mb-8 text-blue-100 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Join thousands of Ghanaians serving their nation through the Internal Security Services
-          </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href={'http://uerp.test/register'} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 animate-slide-up flex items-center justify-center gap-2" style={{ animationDelay: '0.4s' }}>
-              <span>Apply Now</span>
+            <Link href={'javascript:void(0)'} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 animate-slide-up flex items-center justify-center gap-2" style={{ animationDelay: '0.4s' }}>
+              <span>Apply Now !!!</span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

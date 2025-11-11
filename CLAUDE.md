@@ -118,7 +118,7 @@ Standard landing page includes:
 6. Final call-to-action section
 
 ### External Links
-The application links to `http://uerp.test/register` for the actual application registration process.
+The application links to `javascript:void(0)` for the actual application registration process.
 
 ## Development Notes
 

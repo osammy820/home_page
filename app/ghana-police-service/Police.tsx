@@ -47,31 +47,9 @@ function Police() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaUsers className="text-blue-600 text-2xl" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Community Focused</h3>
-                <p className="text-gray-600">Build trust and partnership with communities to create safer neighborhoods</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaShieldAlt className="text-blue-600 text-2xl" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Crime Prevention</h3>
-                <p className="text-gray-600">Proactive measures to prevent and reduce criminal activities nationwide</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaClipboardList className="text-blue-600 text-2xl" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Law Enforcement</h3>
-                <p className="text-gray-600">Uphold the rule of law and ensure justice for all citizens</p>
-              </div>
-            </div>
 
-  
+
+
 
             {/* General Requirements */}
             <div className="bg-gradient-to-r from-blue-50 to-slate-50 rounded-2xl p-8 border border-blue-100 mb-8">
@@ -100,7 +78,7 @@ function Police() {
                     </li>
                     <li className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-700">Not be more than the age stated for a specific category by 1/11/2025</span>
+                      <span className="text-gray-700">Not be more than the age stated for a specific category by 31/12/2025</span>
                     </li>
                   </ul>
                   <ul className="space-y-3">
@@ -157,7 +135,7 @@ function Police() {
                           <FaCalendarAlt />
                           Age Requirement
                         </h4>
-                        <p className="text-gray-700">Not less than 18 years and not more than 30 years by 1/11/2025</p>
+                        <p className="text-gray-700">Not less than 18 years and not more than 30 years by 31/12/2025</p>
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-blue-800 mb-3 flex items-center gap-2">
@@ -196,7 +174,7 @@ function Police() {
                           <FaWrench />
                           Motor Vehicle Mechanics
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II</li>
@@ -212,7 +190,7 @@ function Police() {
                           <FaCar />
                           Drivers/Riders
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Educational Requirements:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• 5 passes in SSSCE/WASSCE OR</li>
@@ -231,7 +209,7 @@ function Police() {
                           <FaPlug />
                           Electricians
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II in Electrical</li>
@@ -246,7 +224,7 @@ function Police() {
                           <FaTools />
                           Plumbers & Masons
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II in Plumbing/Masonry</li>
@@ -261,7 +239,7 @@ function Police() {
                           <FaPaintBrush />
                           Painting/Sign Writing
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II in Painting</li>
@@ -276,7 +254,7 @@ function Police() {
                           <FaTshirt />
                           Tailors/Seamstress
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II in Tailoring</li>
@@ -291,7 +269,7 @@ function Police() {
                           <FaHammer />
                           Wood Construction Technology
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II in Carpentry</li>
@@ -306,7 +284,7 @@ function Police() {
                           <FaFire />
                           Welder & Steel Bender
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II in Welding</li>
@@ -320,7 +298,7 @@ function Police() {
                           <FaSnowflake />
                           Refrigeration
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Required Certifications:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• GES (COTVET) Certificate I/II in Refrigeration</li>
@@ -337,7 +315,7 @@ function Police() {
                           <FaBasketballBall />
                           Sportsmen
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: 18-30 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: 18-30 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Sports Disciplines:</p>
                         <div className="grid grid-cols-2 gap-2 mt-2">
                           {['Boxing', 'Football', 'Handball', 'Basketball', 'Hockey', 'Tennis', 'Table Tennis', 'Volleyball', 'Athletics', 'Badminton', 'Arm Wrestling', 'Martial Arts'].map((sport) => (
@@ -352,7 +330,7 @@ function Police() {
                           <FaMusic />
                           Band
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700 font-medium">Requirements:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
                           <li>• 5 passes in SSSCE/WASSCE</li>
@@ -388,21 +366,21 @@ function Police() {
                       {/* Degree Holders */}
                       <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                         <h4 className="text-lg font-semibold text-blue-800 mb-2">Degree Holders</h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">Minimum of Bachelor's Degree (Second Class Lower Division) from recognized university</p>
                       </div>
 
                       {/* HND Holders */}
                       <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                         <h4 className="text-lg font-semibold text-blue-800 mb-2">HND Holders</h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 32 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 32 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">HND from Technical University or GTEC-accredited tertiary institution</p>
                       </div>
 
                       {/* Diploma Holders */}
                       <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
                         <h4 className="text-lg font-semibold text-blue-800 mb-2">Diploma Holders</h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 32 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 32 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">Diploma from Technical University or GTEC-accredited tertiary institution</p>
                       </div>
                     </div>
@@ -435,7 +413,7 @@ function Police() {
                           <FaUserMd />
                           Medical Doctors
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">MB ChB/BDS with Ghana Medical & Dental Council registration</p>
                         <p className="text-sm text-gray-700 mt-1">1 year post-qualification experience required</p>
                       </div>
@@ -446,7 +424,7 @@ function Police() {
                           <FaBrain />
                           Medical Specialists
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 40 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 40 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">GCPS/WACS/WACP Membership/Fellowship</p>
                         <p className="text-sm text-gray-700 mt-1">2+ years post-qualification experience</p>
                       </div>
@@ -457,7 +435,7 @@ function Police() {
                           <FaPills />
                           Pharmacists
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">BPharm/PharmD/MPharm (Second Class Lower)</p>
                         <p className="text-sm text-gray-700 mt-1">Pharmacy Council & PSG registration required</p>
                       </div>
@@ -468,7 +446,7 @@ function Police() {
                           <FaUserNurse />
                           Nursing Services
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: 32-35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: 32-35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">NMC registration required</p>
                         <p className="text-sm text-gray-700 mt-1">Degree/Diploma/Certificate in Nursing specialties</p>
                       </div>
@@ -479,7 +457,7 @@ function Police() {
                           <FaHeartbeat />
                           Specialized Nursing
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">Bachelor's Degree in Nursing + 2 years experience</p>
                         <p className="text-sm text-gray-700 mt-1">Critical Care, ENT, Emergency, Pediatrics, etc.</p>
                       </div>
@@ -490,7 +468,7 @@ function Police() {
                           <FaMicroscope />
                           Medical Laboratory Scientists
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">BSc/HND/Diploma in Medical Laboratory Science</p>
                       </div>
 
@@ -500,7 +478,7 @@ function Police() {
                           <FaNotesMedical />
                           Physician Assistant
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">BSc Physician Assistantship (Second Class Lower)</p>
                         <p className="text-sm text-gray-700 mt-1">GMD registration + 2 years experience</p>
                       </div>
@@ -511,7 +489,7 @@ function Police() {
                           <FaSyringe />
                           Certified Registered Anaesthetists
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 35 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">BSc or Advanced Diploma in Anesthesia</p>
                       </div>
 
@@ -550,7 +528,7 @@ function Police() {
                           <FaChurch />
                           Ordained Minister or Chaplain
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 40 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 40 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">At least a first degree in Theology</p>
                         <p className="text-sm text-gray-700 mt-2">Good standing in approved Christian denominations:</p>
                         <ul className="text-sm text-gray-600 mt-1 space-y-1">
@@ -567,7 +545,7 @@ function Police() {
                           <FaMosque />
                           Imam
                         </h4>
-                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 40 years by 1/11/2025</p>
+                        <p className="text-sm text-gray-600 mb-2">Age: Not more than 40 years by 31/12/2025</p>
                         <p className="text-sm text-gray-700">At least a first degree in Islamic Studies</p>
                         <p className="text-sm text-gray-700 mt-2">Excellent knowledge in Arabic</p>
                         <p className="text-sm text-gray-700 mt-2">Good standing in approved Muslim denominations:</p>
@@ -632,8 +610,8 @@ function Police() {
             Join the Ghana Police Service and make a difference in your community
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="http://uerp.test/register" className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transition-colors inline-flex items-center justify-center gap-2">
-              <span>Start Application</span>
+            <Link href="javascript:void(0)" className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transition-colors inline-flex items-center justify-center gap-2">
+              <span>Apply Now </span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -642,6 +620,90 @@ function Police() {
               Back to Services
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-16 bg-gradient-to-br from-slate-50 to-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full text-sm font-semibold mb-4 animate-scale-in">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Get In Touch
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in-up">
+              Need Support?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              Our dedicated support team is ready to assist you throughout your application journey
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-16">
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100">
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.2s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Head Office</h3>
+              <p className="text-gray-600 mb-4">Ministries, Accra<br />Greater Accra Region</p><div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100" style={{ animationDelay: '0.1s' }}>
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.3s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone Support</h3>
+              <div className="text-gray-600 mb-2">
+                <div className="font-medium">+233 30 222 2222</div>
+                <div className="font-medium">+233 50 111 1111</div>
+              </div>
+              <div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100" style={{ animationDelay: '0.2s' }}>
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Support</h3>
+              <div className="text-gray-600 mb-4">
+                <div className="font-medium">support@c-serp.gov.gh</div>
+                <div className="font-medium">info@c-serp.gov.gh</div>
+              </div>
+              <div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100" style={{ animationDelay: '0.3s' }}>
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.5s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Live Chat</h3>
+              <p className="text-gray-600 mb-4">
+                Available on our website<br />
+                Mobile App Support
+              </p>
+              <div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </main>

@@ -211,8 +211,8 @@ export default function NarcoticsControlCommission() {
             Join the Narcotics Control Commission and fight drug abuse in Ghana
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="http://uerp.test/register" className="bg-white text-green-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2">
-              <span>Start Application</span>
+            <Link href="javascript:void(0)" className="bg-white text-green-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2">
+              <span>Apply Now </span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>

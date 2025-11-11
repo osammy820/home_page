@@ -27,7 +27,7 @@ export default function GNFS() {
               <FaArrowLeft className="text-xl" />
               <span className="font-semibold">Back to Services</span>
             </Link>
-            
+
           </div>
 
           <div className="max-w-4xl mx-auto text-center">
@@ -47,30 +47,7 @@ export default function GNFS() {
       <section className="py-16" aria-labelledby="service-overview">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 id="service-overview" className="sr-only">Service Overview</h2>
-            <div className="grid md:grid-cols-3 gap-8 mb-16">
-              <article className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaFire className="text-orange-700 text-2xl" aria-hidden="true" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Fire Prevention</h3>
-                <p className="text-gray-600">Educate communities and prevent fire incidents through proactive measures</p>
-              </article>
-              <article className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaHeartbeat className="text-orange-700 text-2xl" aria-hidden="true" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Emergency Response</h3>
-                <p className="text-gray-600">Rapid response to fire emergencies and rescue operations</p>
-              </article>
-              <article className="text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <FaShieldAlt className="text-orange-700 text-2xl" aria-hidden="true" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Life Protection</h3>
-                <p className="text-gray-600">Save lives and protect property during emergency situations</p>
-              </article>
-            </div>
+
 
             {/* General Eligibility */}
             <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-8 border border-blue-200 mb-8">
@@ -673,223 +650,223 @@ export default function GNFS() {
 
                 {expandedCategory === 'other-trades' && (
                   <div id="other-trades-content" className="mt-4 p-6 bg-blue-50 rounded-lg border border-blue-200">
-                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {/* Painting/Sign Writing */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Painting/Sign Writing</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• GES Intermediate Certificate</li>
-                        <li>• COTVET Certificate II</li>
-                        <li>• City and Guilds Certificate</li>
-                        <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
-                      </ul>
-                    </div>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                      {/* Painting/Sign Writing */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Painting/Sign Writing</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• GES Intermediate Certificate</li>
+                          <li>• COTVET Certificate II</li>
+                          <li>• City and Guilds Certificate</li>
+                          <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
+                        </ul>
+                      </div>
 
-                    {/* Plumbers */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Plumbers</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• GES Intermediate Certificate</li>
-                        <li>• COTVET Certificate II</li>
-                        <li>• City and Guilds Certificate</li>
-                        <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
-                      </ul>
-                    </div>
+                      {/* Plumbers */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Plumbers</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• GES Intermediate Certificate</li>
+                          <li>• COTVET Certificate II</li>
+                          <li>• City and Guilds Certificate</li>
+                          <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
+                        </ul>
+                      </div>
 
-                    {/* Masons */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Masons</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• GES Intermediate Certificate</li>
-                        <li>• COTVET Certificate II</li>
-                        <li>• City and Guilds Certificate</li>
-                        <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
-                      </ul>
-                    </div>
+                      {/* Masons */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Masons</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• GES Intermediate Certificate</li>
+                          <li>• COTVET Certificate II</li>
+                          <li>• City and Guilds Certificate</li>
+                          <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
+                        </ul>
+                      </div>
 
-                    {/* Wood Construction/Carpentry */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Wood Construction/Carpentry</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• GES Intermediate Certificate</li>
-                        <li>• GES/COTVET Certificate II</li>
-                        <li>• City and Guilds Certificate</li>
-                        <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
-                      </ul>
-                    </div>
+                      {/* Wood Construction/Carpentry */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Wood Construction/Carpentry</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• GES Intermediate Certificate</li>
+                          <li>• GES/COTVET Certificate II</li>
+                          <li>• City and Guilds Certificate</li>
+                          <li>• NVTI: 6 BECE passes + Proficiency II/I/II</li>
+                        </ul>
+                      </div>
 
-                    {/* Architectural Draughtsman */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Architectural Draughtsman</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• GES Intermediate Certificate</li>
-                        <li>• COTVET Certificate II</li>
-                      </ul>
-                    </div>
+                      {/* Architectural Draughtsman */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Architectural Draughtsman</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• GES Intermediate Certificate</li>
+                          <li>• COTVET Certificate II</li>
+                        </ul>
+                      </div>
 
-                    {/* Automotive Technicians */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Automotive Technicians</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• CTVET/GES Diploma</li>
-                        <li>• City and Guilds Certificate/Diploma</li>
-                        <li>• Motor Vehicle Tech (Parts I-III)</li>
-                        <li>• NABTEX Certificate II</li>
-                      </ul>
-                    </div>
+                      {/* Automotive Technicians */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Automotive Technicians</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• CTVET/GES Diploma</li>
+                          <li>• City and Guilds Certificate/Diploma</li>
+                          <li>• Motor Vehicle Tech (Parts I-III)</li>
+                          <li>• NABTEX Certificate II</li>
+                        </ul>
+                      </div>
 
-                    {/* Drivers */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Drivers</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• License Class C, D, E, F</li>
-                        <li>• Minimum 5 years experience</li>
-                      </ul>
-                    </div>
+                      {/* Drivers */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Drivers</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• License Class C, D, E, F</li>
+                          <li>• Minimum 5 years experience</li>
+                        </ul>
+                      </div>
 
-                    {/* Welding, Steel Bender and Fabrication */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Welding & Fabrication</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• CTVET/GES Diploma</li>
-                        <li>• Advance Craft (Advanced Welding)</li>
-                        <li>• NABTEX Certificate II</li>
-                      </ul>
-                    </div>
+                      {/* Welding, Steel Bender and Fabrication */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Welding & Fabrication</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• CTVET/GES Diploma</li>
+                          <li>• Advance Craft (Advanced Welding)</li>
+                          <li>• NABTEX Certificate II</li>
+                        </ul>
+                      </div>
 
-                    {/* Office Machine Technician */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Office Machine Technician</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• CTVET/GES Diploma</li>
-                        <li>• NABTEX Certificate II (Computer System)</li>
-                      </ul>
-                    </div>
+                      {/* Office Machine Technician */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Office Machine Technician</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• CTVET/GES Diploma</li>
+                          <li>• NABTEX Certificate II (Computer System)</li>
+                        </ul>
+                      </div>
 
-                    {/* Automobile Electricals/Electronics */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Automobile Electricals</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• CTVET/GES Diploma</li>
-                        <li>• City and Guilds Certificate</li>
-                        <li>• Motor Vehicle Tech (Parts I-III)</li>
-                        <li>• NABTEX Certificate II</li>
-                      </ul>
-                    </div>
+                      {/* Automobile Electricals/Electronics */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Automobile Electricals</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• CTVET/GES Diploma</li>
+                          <li>• City and Guilds Certificate</li>
+                          <li>• Motor Vehicle Tech (Parts I-III)</li>
+                          <li>• NABTEX Certificate II</li>
+                        </ul>
+                      </div>
 
-                    {/* Upholstery Technician */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Upholstery Technician</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• Advance Craft (General Tailoring)</li>
-                        <li>• NABTEX Certificate II</li>
-                      </ul>
-                    </div>
+                      {/* Upholstery Technician */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Upholstery Technician</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• Advance Craft (General Tailoring)</li>
+                          <li>• NABTEX Certificate II</li>
+                        </ul>
+                      </div>
 
-                    {/* Refrigeration & Air Conditioning */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Refrigeration & AC</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• CTVET/GES Diploma</li>
-                        <li>• City & Guilds HVAC Diploma</li>
-                        <li>• Refrigeration Mechanic Part II</li>
-                        <li>• NABTEX Certificate II</li>
-                      </ul>
-                    </div>
+                      {/* Refrigeration & Air Conditioning */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Refrigeration & AC</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• CTVET/GES Diploma</li>
+                          <li>• City & Guilds HVAC Diploma</li>
+                          <li>• Refrigeration Mechanic Part II</li>
+                          <li>• NABTEX Certificate II</li>
+                        </ul>
+                      </div>
 
-                    {/* Network Technicians */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Network Technicians</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• Network Technician Diploma</li>
-                        <li>• CCNA/CCNP Certification</li>
-                        <li>• MCSE/MCSA Certification</li>
-                        <li>• Software/Network/Telecom Engineering</li>
-                        <li>• Ethical Hacking, Cyber Security</li>
-                      </ul>
-                    </div>
+                      {/* Network Technicians */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Network Technicians</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• Network Technician Diploma</li>
+                          <li>• CCNA/CCNP Certification</li>
+                          <li>• MCSE/MCSA Certification</li>
+                          <li>• Software/Network/Telecom Engineering</li>
+                          <li>• Ethical Hacking, Cyber Security</li>
+                        </ul>
+                      </div>
 
-                    {/* Hardware Technicians */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Hardware Technicians</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• COMPTIA A+ Certification</li>
-                        <li>• COMPTIA Network+ Certification</li>
-                        <li>• Networking/Telecom Engineering</li>
-                      </ul>
-                    </div>
+                      {/* Hardware Technicians */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Hardware Technicians</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• COMPTIA A+ Certification</li>
+                          <li>• COMPTIA Network+ Certification</li>
+                          <li>• Networking/Telecom Engineering</li>
+                        </ul>
+                      </div>
 
-                    {/* Radio Technician */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Radio Technician</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• Telecom Technician (Parts II/III)</li>
-                        <li>• Electronic Technicians (Parts II/III)</li>
-                        <li>• Radio Servicing Technician</li>
-                        <li>• RF/Microwave/Power Technician</li>
-                      </ul>
-                    </div>
+                      {/* Radio Technician */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Radio Technician</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• Telecom Technician (Parts II/III)</li>
+                          <li>• Electronic Technicians (Parts II/III)</li>
+                          <li>• Radio Servicing Technician</li>
+                          <li>• RF/Microwave/Power Technician</li>
+                        </ul>
+                      </div>
 
-                    {/* Telephone Technician */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Telephone Technician</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• Telecom Technician (Parts II/III)</li>
-                        <li>• Equipment Repair/Maintenance</li>
-                        <li>• Electronic Engineering</li>
-                        <li>• Fibre Optic Technician</li>
-                        <li>• Cisco CCNA (VOIP)</li>
-                      </ul>
-                    </div>
+                      {/* Telephone Technician */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Telephone Technician</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• Telecom Technician (Parts II/III)</li>
+                          <li>• Equipment Repair/Maintenance</li>
+                          <li>• Electronic Engineering</li>
+                          <li>• Fibre Optic Technician</li>
+                          <li>• Cisco CCNA (VOIP)</li>
+                        </ul>
+                      </div>
 
-                    {/* IT/Network Administration */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">IT/Network Administration</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• Certificate with LINUX/Windows Server knowledge</li>
-                        <li>• Server 2003, 2008 and above</li>
-                      </ul>
-                    </div>
+                      {/* IT/Network Administration */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">IT/Network Administration</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• Certificate with LINUX/Windows Server knowledge</li>
+                          <li>• Server 2003, 2008 and above</li>
+                        </ul>
+                      </div>
 
-                    {/* Database Administration */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Database Administration</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• MySQL, SQL, Oracle Certification</li>
-                      </ul>
-                    </div>
+                      {/* Database Administration */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Database Administration</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• MySQL, SQL, Oracle Certification</li>
+                        </ul>
+                      </div>
 
-                    {/* Computer System Development */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Computer System Development</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• VB, C++, Java Certification</li>
-                        <li>• HTML, PHP, CSS, CMS Certification</li>
-                        <li>• Adobe, Photoshop Certification</li>
-                      </ul>
-                    </div>
+                      {/* Computer System Development */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Computer System Development</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• VB, C++, Java Certification</li>
+                          <li>• HTML, PHP, CSS, CMS Certification</li>
+                          <li>• Adobe, Photoshop Certification</li>
+                        </ul>
+                      </div>
 
-                    {/* Tailors/Textiles */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Tailors/Textiles</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• 6 BECE passes + NVTI proficiency I/II</li>
-                        <li>• GES Intermediate Certificate</li>
-                        <li>• COTVET Certificate II</li>
-                        <li>• NVTI Grade I & II proficiency</li>
-                      </ul>
-                    </div>
+                      {/* Tailors/Textiles */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Tailors/Textiles</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• 6 BECE passes + NVTI proficiency I/II</li>
+                          <li>• GES Intermediate Certificate</li>
+                          <li>• COTVET Certificate II</li>
+                          <li>• NVTI Grade I & II proficiency</li>
+                        </ul>
+                      </div>
 
-                    {/* Education Corps */}
-                    <div className="bg-white rounded-lg p-4 border border-blue-200">
-                      <h5 className="font-semibold text-blue-800 mb-2">Education Corps</h5>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        <li>• Diploma in Education (French)</li>
-                        <li>• Diploma in Education (English)</li>
-                      </ul>
+                      {/* Education Corps */}
+                      <div className="bg-white rounded-lg p-4 border border-blue-200">
+                        <h5 className="font-semibold text-blue-800 mb-2">Education Corps</h5>
+                        <ul className="text-xs text-gray-700 space-y-1">
+                          <li>• Diploma in Education (French)</li>
+                          <li>• Diploma in Education (English)</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-                </div>
                 )}
               </section>
             </div>
@@ -1033,8 +1010,8 @@ export default function GNFS() {
             Join the Ghana National Fire Service and become a hero in your community
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="http://uerp.test/register" className="bg-white text-orange-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2">
-              <span>Start Application</span>
+            <Link href="javascript:void(0)" className="bg-white text-orange-700 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2">
+              <span>Apply Now </span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -1043,6 +1020,90 @@ export default function GNFS() {
               Back to Services
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-16 bg-gradient-to-br from-slate-50 to-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full text-sm font-semibold mb-4 animate-scale-in">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Get In Touch
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in-up">
+              Need Support?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+              Our dedicated support team is ready to assist you throughout your application journey
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-16">
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100">
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.2s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Head Office</h3>
+              <p className="text-gray-600 mb-4">Ministries, Accra<br />Greater Accra Region</p><div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100" style={{ animationDelay: '0.1s' }}>
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.3s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone Support</h3>
+              <div className="text-gray-600 mb-2">
+                <div className="font-medium">+233 30 222 2222</div>
+                <div className="font-medium">+233 50 111 1111</div>
+              </div>
+              <div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100" style={{ animationDelay: '0.2s' }}>
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.4s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Support</h3>
+              <div className="text-gray-600 mb-4">
+                <div className="font-medium">support@c-serp.gov.gh</div>
+                <div className="font-medium">info@c-serp.gov.gh</div>
+              </div>
+              <div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in-up border border-gray-100" style={{ animationDelay: '0.3s' }}>
+              <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4 animate-scale-in" style={{ animationDelay: '0.5s' }}>
+                <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Live Chat</h3>
+              <p className="text-gray-600 mb-4">
+                Available on our website<br />
+                Mobile App Support
+              </p>
+              <div className="text-sm text-blue-600 font-medium">
+                24/7 Emergency Line Available
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </main>
