@@ -87,6 +87,11 @@ export default function Home() {
 
 
 
+
+
+
+
+
               {/*
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in-up" style={{ animationDelay: '1s' }}>
               <button className="group bg-gradient-to-r from-yellow-400 to-yellow-500 text-slate-900 px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-yellow-400/25 transform hover:scale-105 transition-all duration-300 flex items-center gap-3 animate-bounce-slow">
