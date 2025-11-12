@@ -43,7 +43,7 @@ export default function Home() {
 
               {/* Services in Hero Section */}
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-12 animate-fade-in-up mt-8 pt-16" style={{ animationDelay: '0.6s' }}>
-                <Link href="/ghana-police-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                <Link href="https://police.cserpgh.com" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_police_service_logo.png" alt="Ghana Police Service" className="w-full h-full object-contain" />
                   </div>
@@ -51,7 +51,7 @@ export default function Home() {
                   <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
                 </Link>
 
-                <Link href="/ghana-national-fire-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                <Link href="https://gnfs.cserpgh.com" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_national_fire_service_logo.png" alt="Ghana National Fire Service" className="w-full h-full object-contain" />
                   </div>
@@ -59,7 +59,7 @@ export default function Home() {
                   <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
                 </Link>
 
-                <Link href="/ghana-immigration-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                <Link href="https://gis.cserpgh.com" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_immigration_service_logo.png" alt="Ghana Immigration Service" className="w-full h-full object-contain" />
                   </div>
@@ -67,7 +67,7 @@ export default function Home() {
                   <p className="text-sm text-white/70 group-hover:text-white/90 transition-colors">Learn more →</p>
                 </Link>
 
-                <Link href="/ghana-prisons-service" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
+                <Link href="https://gps.cserpgh.com" className="group bg-white/5 backdrop-blur-[2px] rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 text-center block hover:scale-105 hover:shadow-xl hover:shadow-white/10">
                   <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg p-2">
                     <img src="/assets/services/ghana_prisons_service_logo.png" alt="Ghana Prisons Service" className="w-full h-full object-contain" />
                   </div>
